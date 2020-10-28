@@ -1,5 +1,3 @@
-https://raw.githubusercontent.com/zifaucode/hack-jawaban-quizizz-bot/main/ZIF.PNG
-                                               
 Memanfaatkan Debugging Javascript code untuk Quizizz ,
 
 # Auto Jawab Quizizz
