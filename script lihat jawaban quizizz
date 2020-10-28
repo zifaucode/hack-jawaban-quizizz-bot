@@ -5,6 +5,8 @@ x.type = 'text/css'
 x.href = "https://cdn.jsdelivr.net/gh/EastArctica/JS-Plugins@master/Un-Released/Kahoot/KahootModal.css"
 document.head.appendChild(x);
 
+alert("SELAMAT MENGUNGGANAKAN //ZIFAU (github.com/zifaucode)");
+
 var xhttp = new XMLHttpRequest()
 var URL = window.location.href
 var found = URL.search("https://quizizz.com/join/game/");
