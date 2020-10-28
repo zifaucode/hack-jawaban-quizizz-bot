@@ -18,7 +18,7 @@ if (typeof jQuery == 'undefined') {
     document.getElementsByTagName('head')[0].appendChild(script);
 }
 
-let WaitTime = prompt("Masukan Angka Kecepetan Menjawab Dalam Detik //ZIFAU (github.com/zifaucode)")
+let WaitTime = prompt("Masukan Angka Kecepatan Menjawab Dalam Detik //ZIFAU (github.com/zifaucode)")
 if (Number(WaitTime) === NaN) {
     alert("Angka Yang dimasukan Salah")
     throw new Error("Invalid number");
