@@ -1,13 +1,13 @@
 if (window.location.href.search("quizizz.com/join/game/") == -1 && window.location.href.search("gameType=") == -1) {
     if (window.location.href.search("quizizz.com/join/pre-game/") != -1) {
-        alert("tidak dapat menjalankan Script ini saat dihentikan sementara." //ZIFAU)
-        throw new Error("dak dapat menjalankan Script ini saat dijeda. //ZIFAU");
+        alert("Anda tidak dapat menjalankan Sript ini saat dijeda //ZIFAU (github.com/zifaucode)")
+        throw new Error("You cannot execute this while paused. If you think this is an error please DM East_Arctica#9238 on discord!");
     } else if (window.location.href.search("quizizz.com/join/quiz/") != -1) {
-        alert("Anda harus memulai permainan sebelum menjalankan skrip ini , // ZIFAU")
-        throw new Error("harus memulai permainan sebelum menjalankan skrip ini. //ZIFAU");
+        alert("Anda Harus Masuk atau join kedalan quiz terlebih dahulu untuk mengaktifkan script ini. //ZIFAU (github.com/zifaucode)")
+        throw new Error("You need to start the game before running this script. If you think this is an error please DM East_Arctica#9238 on discord!");
     } else {
-        alert("Anda tidak sedang mengikuti kuis // ZIFAU")
-        throw new Error("Anda tidak sedang mengikuti kuis. //ZIFAU");
+        alert("Anda tidak sedang mengikuti kuis, Masuk Kuis untuk menjalankan Script //ZIFAU (github.com/zifaucode)")
+        throw new Error("You aren't on a quizizz quiz. If you think this is an error please DM East_Arctica#9238 on discord!");
     }
 }
 
@@ -18,9 +18,9 @@ if (typeof jQuery == 'undefined') {
     document.getElementsByTagName('head')[0].appendChild(script);
 }
 
-let WaitTime = prompt("masukkan jumlah detik untuk menunggu pada setiap jawaban //ZIFAU")
+let WaitTime = prompt("Masukan Angka Kecepetan Menjawab Dalam Detik //ZIFAU (github.com/zifaucode)")
 if (Number(WaitTime) === NaN) {
-    alert("Nomor yang Anda masukan salah, refresh dan coba lagi")
+    alert("Angka Yang dimasukan Salah")
     throw new Error("Invalid number");
 } else {
     WaitTime = Number(WaitTime) * 1000
