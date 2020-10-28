@@ -1,4 +1,3 @@
-
 var x = document.createElement("link");
 x.rel = 'stylesheet';
 x.type = 'text/css'
@@ -24,7 +23,8 @@ if (found) {
     Close.innerHTML = "&times;"
     var btn = document.createElement("button")
     btn.id = "ModalButton"
-    btn.innerText = "Lihat Jawaban"
+    btn.style = "background-color:rgb(255,255,0);"
+    btn.innerText = "-- Lihat Jawaban --"
     btn.onclick = function() {
         Modal.style.display = "block";
     }
@@ -158,4 +158,3 @@ if (found) {
         window.idiidk();
     }
 }
-
